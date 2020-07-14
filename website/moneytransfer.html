@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MyBank MoneyTransfer</title>
+    <script src="./scripts/angular.1.7.8.js"></script>
+    <script src="./scripts/_mybankAPIgateway.js"></script>
+</head>
+
+<h1 align=center>MyBank MoneyTransfer</h1>
+
+<body ng-app="_mybankAPIgateway" ng-controller="_mybankAPIgatewayController">
+    <form id="frm" name="frm">
+        <div align=center>
+            <hr>
+            ID: <input id="moneytransferid" type="text" name="moneytransferid"
+                ng-model="form.moneytransfer._ID" />&nbsp
+            From Account ID: <input id="fromaccount" type="text" name="fromaccount"
+                ng-model="form.moneytransfer.fromaccount" />&nbsp;
+            To Account ID: <input id="toaccount" type="text" name="toaccount"
+                ng-model="form.moneytransfer.toaccount" />&nbsp;
+            Amount: <input id="amount" type="text" name="amount" ng-model="form.moneytransfer.amount" />
+            <br>
+            <br>
+            <button name="btnselect" ng-click="data.moneytransfer.selectquery();">Read</button>
+            &nbsp;
+            <button name="btnupdate" ng-click="data.moneytransfer.updatequery();">Update</button>
+            &nbsp;
+            <button name="btndelete" ng-click="data.moneytransfer.deletequery();">Delete</button>
+            &nbsp;
+            <button name="btninsert" ng-click="data.moneytransfer.insertquery();">Create</button>
+        </div>
+        <br>
+        <hr>
+        <div align=center>
+            <br><b>TRANSFERS LIST</b>
+            <br>
+            <table align="center">
+                <tr>
+                    <td align="center">ID</td>
+                    <td align="center">FROM</td>
+                    <td align="center">TO</td>
+                    <td align="center">AMOUNT</td>
+                </tr>
+                <tr>
+                    <td colspan=100%>
+                        <hr>
+                    </td>
+                </tr>
+                <tr style="color:blue;" ng-repeat="moneytransfer in data.queryresponse">
+                    <td align="center">{{moneytransfer._ID}}</td>
+                    <td align="center">{{moneytransfer.fromaccount}}</td>
+                    <td align="center">{{moneytransfer.toaccount}}</td>
+                    <td align="center">{{moneytransfer.amount}}</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div align=center>
+            <a href="mybank.html">Back to Main Menu</a>
+        </div>
+    </form>
+</body>
+
+</html>
