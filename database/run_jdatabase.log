@@ -1,0 +1,50 @@
+added manifest
+adding: jdatabase/dbsql.class(in = 3708) (out= 2015)(deflated 45%)
+adding: jdatabase/serviceCommon.class(in = 1754) (out= 1008)(deflated 42%)
+adding: json-simple-1.1.1.jar(in = 23931) (out= 21027)(deflated 12%)
+adding: mysql-connector-java-8.0.18.jar(in = 2330539) (out= 2201873)(deflated 5%)
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install-file (default-cli) @ standalone-pom ---
+[INFO] Installing D:\Downloads\soa_project-1.1\database\mysql-connector-java-8.0.18.jar to C:\Users\LENOVO\.m2\repository\mysql\mysql-connector-java\8.0.18\mysql-connector-java-8.0.18.jar
+[INFO] Installing C:\Users\LENOVO\AppData\Local\Temp\mvninstall8331428010509295875.pom to C:\Users\LENOVO\.m2\repository\mysql\mysql-connector-java\8.0.18\mysql-connector-java-8.0.18.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.419 s
+[INFO] Finished at: 2020-07-14T16:31:27+05:30
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install-file (default-cli) @ standalone-pom ---
+[INFO] Installing D:\Downloads\soa_project-1.1\database\json-simple-1.1.1.jar to C:\Users\LENOVO\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar
+[INFO] Installing C:\Users\LENOVO\AppData\Local\Temp\mvninstall6265205216393812248.pom to C:\Users\LENOVO\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.930 s
+[INFO] Finished at: 2020-07-14T16:31:35+05:30
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install-file (default-cli) @ standalone-pom ---
+[INFO] Installing D:\Downloads\soa_project-1.1\database\jdatabase.jar to C:\Users\LENOVO\.m2\repository\mysql\jdatabase\1.0\jdatabase-1.0.jar
+[INFO] Installing C:\Users\LENOVO\AppData\Local\Temp\mvninstall1147021698263799520.pom to C:\Users\LENOVO\.m2\repository\mysql\jdatabase\1.0\jdatabase-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.223 s
+[INFO] Finished at: 2020-07-14T16:31:42+05:30
+[INFO] ------------------------------------------------------------------------
